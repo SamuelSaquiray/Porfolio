@@ -10,7 +10,7 @@ const Project = [
 title: "Plataforma de Prediagnóstico de Arritmias Cardíacas (En Desarrollo)",
   description: "Creación de una aplicación web para el monitoreo de señales PPG en tiempo real.Integración con D3.js para la visualización de datos y análisis de patrones.Diseño de API para la recepción y procesamiento de datos biomédicos.",
   image: "/Ppg.png",
-  link: "https://github.com/saquiray",
+  link: "https://ppheart.netlify.app/",
   tags: ["REACT", "JS"],
 }
 
