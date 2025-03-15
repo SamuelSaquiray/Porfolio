@@ -11,14 +11,14 @@ const Project = [
 {
   title: "Sistema de Búsqueda de Películas (C++)",
   description: "Desarrollé un sistema de búsqueda eficiente para una plataforma de streaming utilizando un Trie invertido.Implementé una función de búsqueda por subcadena con límites en la cantidad de resultados.Optimización del algoritmo para mejorar la velocidad de recuperación de datos.",
-  image: "https://placehold.co/430x240",
+  image: "MovieSearch.png",
   link: "https://github.com/KarTaGo124/Programming-III-Project",
   tags: ["C++", "HTML", "JS"]
 },
 {
 title: "Plataforma de Prediagnóstico de Arritmias Cardíacas (En Desarrollo)",
   description: "Creación de una aplicación web para el monitoreo de señales PPG en tiempo real.Integración con D3.js para la visualización de datos y análisis de patrones.Diseño de API para la recepción y procesamiento de datos biomédicos.",
-  image: "https://placehold.co/430x240",
+  image: "Ppg.png",
   link: "https://github.com/saquiray",
   tags: ["REACT", "JS"]
 }
@@ -36,7 +36,7 @@ function Proyectos() {
     
     {Project.map((project, index) => (
     <article key={index} className={`flex ${index % 2 == 0 ? 'flex-row' : 'flex-row-reverse'} space-x-0 space-y-8 group md:space-x-8 md:space-y-0 `}>
-      <img src={project.image} alt={project.title} className="w-[511.875px] h-[235.5px] hover:scale-105 transition duration-300"/>
+      <img src={project.image} alt={project.title} className="w-[511.875px] h-[235.5px] hover:scale-105 transition duration-300 rounded-[10px]"/>
       <div className="flex flex-col gap-y-2">
       <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">{project.title}</h3>
       <p className="mt-2 text-gray-700 dark:text-gray-400">{project.description}</p>
