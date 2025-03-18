@@ -28,7 +28,7 @@ title: "Plataforma de Prediagnóstico de Arritmias Cardíacas (En Desarrollo)",
 function Proyectos() {
     return(
     <>
-    <section id="proyectos" data-section="proyectos" className="section undefined scroll-m-20 w-full mx-auto container md:max-w-2xl pb-30 lg:max-w-4xl">  
+    <section id="Proyectos" data-section="proyectos" className="section undefined scroll-m-20 w-full mx-auto container md:max-w-2xl pb-30 lg:max-w-4xl">  
       <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-3 /80 dark: undefined underline decoration-[#FDC435] decoration-3 underline-offset-8">  
       <Key />
     Proyectos

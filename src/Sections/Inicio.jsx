@@ -2,7 +2,7 @@ import GithubIcon from '../svg/github.jsx';
 import Linkedin from '../svg/linkedin.jsx';
 function Inicio() {
 return (
-    <section className="flex flex-row gap-[30px] justify-center items-center h-[700px] lg:max-w-4xl pb-[100px]">
+    <section id="Inicio" className="flex flex-row gap-[30px] justify-center items-center h-[700px] lg:max-w-4xl pb-[100px]">
     <div className="flex flex-col py-60 align-left w-[486px]">
     <div className="text-[#FDC435] font-bold">FULLSTACK DEVELOPER</div> 
     <div className="flex flex-col gap-[32px]">

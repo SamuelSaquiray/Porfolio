@@ -6,10 +6,10 @@ function Header() {
                 <div className="text-2xl font-bold npm">Samuel Saquiray</div>
 
                 <ul className="flex gap-16 ">
-                    <li><a href="/Inicio" className=" text-base no-underline hover:underline ">Inicio</a></li>
-                    <li><a href="/Proyectos" className=" text-base no-underline hover:underline">Proyectos</a></li>
-                    <li><a href="/Sobre-mi" className=" text-base no-underline hover:underline">Sobre mí</a></li>
-                    <li><a href="/Skills" className=" text-base no-underline hover:underline">Skills</a></li>
+                    <li><a href="#Inicio" className=" text-base no-underline hover:underline ">Inicio</a></li>
+                    <li><a href="#Proyectos" className=" text-base no-underline hover:underline">Proyectos</a></li>
+                    <li><a href="#Sobre-mi" className=" text-base no-underline hover:underline">Sobre mí</a></li>
+                    <li><a href="#Skills" className=" text-base no-underline hover:underline">Skills</a></li>
                 </ul>
                 
             </nav>
