@@ -11,14 +11,14 @@ const Project = [
 {
   title: "Sistema de Búsqueda de Películas (C++)",
   description: "Desarrollé un sistema de búsqueda eficiente para una plataforma de streaming utilizando un Trie invertido.Implementé una función de búsqueda por subcadena con límites en la cantidad de resultados.Optimización del algoritmo para mejorar la velocidad de recuperación de datos.",
-  image: "MovieSearch.png",
+  image: "Ppg.png",
   link: "https://github.com/KarTaGo124/Programming-III-Project",
   tags: ["C++", "HTML", "JS"]
 },
 {
 title: "Plataforma de Prediagnóstico de Arritmias Cardíacas (En Desarrollo)",
   description: "Creación de una aplicación web para el monitoreo de señales PPG en tiempo real.Integración con D3.js para la visualización de datos y análisis de patrones.Diseño de API para la recepción y procesamiento de datos biomédicos.",
-  image: "Ppg.png",
+  image: "MovieSearch.png",
   link: "https://github.com/saquiray",
   tags: ["REACT", "JS"]
 }
